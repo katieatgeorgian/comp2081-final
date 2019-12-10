@@ -1,0 +1,120 @@
+/* help from https://www.w3schools.com/howto/howto_css_parallax.asp */
+#background1 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/coffee3.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/frenchtoast.png");
+  /*image borrowed from https://www.istockphoto.com/ca/photo/french-toast-with-berries-and-cream-gm187324823-27829498 */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/avocadotoast.png");
+  /*image borrowed from https://www.istockphoto.com/ca/photo/healthy-food-budha-bowl-with-quinoa-avocado-cucumber-salad-tomatoe-olive-oil-clean-gm1180664198-330847832 */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/pie.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundContact {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/coffeebeans3.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundContact2 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/maps2.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundAbout {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/store.jpg");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundMenu {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/breakfast.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
