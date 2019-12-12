@@ -1,86 +1,12 @@
-@font-face {
-  font-family: "philosopherregular";
-  src: url("../assets/Philosopher-Regular-webfont.eot");
-  src: url("../assets/Philosopher-Regular-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("../assets/Philosopher-Regular-webfont.woff2") format("woff2"),
-    url("../assets/Philosopher-Regular-webfont.woff") format("woff"),
-    url("../assets/Philosopher-Regular-webfont.ttf") format("truetype"),
-    url("../assets/Philosopher-Regular-webfont.svg#philosopherregular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Goblin+One&display=swap");
-/* @import url("https://fonts.googleapis.com/css?family=Lato&display=swap"); */
-@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
-
-html {
-  font-size: 16px;
-  line-height: 1.4;
-}
+@charset "UTF-8";
 
 h1 {
-  text-align: center;
-  font-family: "Goblin One";
-  font-style: italic;
   padding-top: 2rem;
-  color: #fff;
-}
-
-h2 {
-  font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
-  font-size: 1.4rem;
-}
-
-h2 span {
-  color: #fff;
-}
-
-h3 {
-  color: rgb(209, 209, 211);
-  font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
-}
-
-.whiteFont {
-  color: #fff;
 }
 
 .lightTurquoise {
   background-color: #ebf3f0;
   padding: 0.4rem 0;
-}
-p,
-address {
-  font-size: 1.3rem;
-  /* font-family: Lato, Verdana, sans-serif; */
-  font-family: Abel, sans-serif;
-  letter-spacing: 0.025rem;
-
-  color: rgb(40, 31, 14);
-}
-
-a {
-  font-family: Lato, Verdana, sans-serif;
-  color: rgb(40, 31, 14) !important;
-}
-
-nav a {
-  font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
-}
-a:hover {
-  color: rgb(122, 152, 50) !important;
-}
-
-header a {
-  font-size: 1.3rem;
-}
-header nav {
-  background-color: white;
 }
 
 #logo {
@@ -117,6 +43,7 @@ header nav {
   }
 }
 
+/** backgrounds **/
 .red {
   color: #fff;
   background-color: rgba(160, 28, 28);
@@ -139,8 +66,8 @@ header nav {
 }
 
 .turquoise {
-  color: rgba(40, 31, 14);
   background-color: #5dbf97;
+  color: rgba(40, 31, 14);
   text-align: center;
   padding: 50px 80px;
 }
@@ -150,6 +77,30 @@ header nav {
   background-color: #fff;
   text-align: center;
   padding: 50px 80px;
+}
+
+.cardHeaderBreakfast {
+  background-color: rgba(160, 28, 28);
+}
+
+.cardHeaderLunch {
+  background-color: rgba(122, 152, 50);
+}
+
+.cardHeaderDrinks {
+  background-color: rgba(40, 31, 14);
+}
+
+.cardbodyBreakfast {
+  border: 3px solid rgba(160, 28, 28);
+}
+
+.cardbodyLunch {
+  border: 3px solid rgba(122, 152, 50);
+}
+
+.cardBodyDrinks {
+  border: 3px solid rgba(40, 31, 14);
 }
 
 .btnSubmit {
@@ -163,12 +114,6 @@ footer {
   font-size: 1rem;
 }
 
-footer p,
-footer address {
-  color: rgba(40, 31, 14);
-  font-size: 1rem;
-}
-
 footer section section ul {
   padding-left: 0;
 }
@@ -179,44 +124,32 @@ footer section section ul {
 }
 
 .about h3 {
-  color: rgba(40, 31, 14);
-  text-align: center;
   padding: 1rem 0;
 }
 
-.aboutCards h6 {
-  color: rgba(40, 31, 14);
-}
-
-.aboutCards p {
-  color: rgba(40, 31, 14);
-  font-size: 1rem;
-}
-
 div.carousel-caption h2 {
-  background-color: rgba(255, 255, 255, 0.5);
   padding: 0.2rem;
-  color: rgba(40, 31, 14);
 }
 
 caption {
   caption-side: top;
 }
 
-/*** BLOG ***/
+.card-header button {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
 
-/* stylelint-disable selector-list-comma-newline-after */
+.card-header button:hover {
+  color: rgb(40, 31, 14);
+}
+
+/*** BLOG ***/
 
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
-}
-
-.blog-header-logo {
-  /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
-  font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
-    sans-serif;
-  font-size: 2rem;
 }
 
 .blog-header-logo:hover {
@@ -252,26 +185,9 @@ caption {
   border-radius: 10px;
 }
 
-.blog-post p {
-  font-size: 1.1rem;
-}
-.blog-post-title {
-  margin-bottom: 0.25rem;
-  font-size: 2.5rem;
-}
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
-}
-
-.flip {
-  -webkit-transform: scaleX(-1);
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  transform: scaleX(-1);
-
-  filter: FlipH;
-  -ms-filter: "FlipH";
 }
 
 /* unvisited link */

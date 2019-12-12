@@ -1,7 +1,9 @@
+@charset "UTF-8";
+
 /* help from https://www.w3schools.com/howto/howto_css_parallax.asp */
 #background1 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffee3.png");
+  background-image: url("../images/coffee3Edited.png");
   /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
 
   /* Set a specific height */
@@ -16,7 +18,7 @@
 
 #background2 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/frenchtoast.png");
+  background-image: url("../images/frenchtoastEdited.png");
   /*image borrowed from https://www.istockphoto.com/ca/photo/french-toast-with-berries-and-cream-gm187324823-27829498 */
 
   /* Set a specific height */
@@ -31,7 +33,7 @@
 
 #background3 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/avocadotoast.png");
+  background-image: url("../images/avocadotoastEdited.png");
   /*image borrowed from https://www.istockphoto.com/ca/photo/healthy-food-budha-bowl-with-quinoa-avocado-cucumber-salad-tomatoe-olive-oil-clean-gm1180664198-330847832 */
 
   /* Set a specific height */
@@ -46,7 +48,7 @@
 
 #background4 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/pie.png");
+  background-image: url("../images/paniniEdited.png");
   /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
 
   /* Set a specific height */
@@ -61,11 +63,11 @@
 
 #backgroundContact {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffeebeans3.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+  /* background-image: url("../images/coffeebeans3.png"); */
+  background-image: url("../images/tea3edited.png");
 
   /* Set a specific height */
-  min-height: 400px;
+  min-height: 500px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -106,7 +108,22 @@
 
 #backgroundMenu {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/breakfast.png");
+  background-image: url("../images/breakfastEdited.png");
+  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundNews {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/coffeebeans3Edited.png");
   /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
 
   /* Set a specific height */
