@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* help from https://www.w3schools.com/howto/howto_css_parallax.asp */
+#background1 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/coffee3Edited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background2 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/frenchtoastEdited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background3 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/avocadotoastEdited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#background4 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/paniniEdited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundContact {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/tea3edited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundContact2 {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/maps2.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundAbout {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/store.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundMenu {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/breakfastEdited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#backgroundNews {
+  background-color: rgb(251, 252, 227);
+  background-image: url("../images/coffeebeans3Edited.png");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
