@@ -43,6 +43,25 @@ h1 {
   }
 }
 
+i {
+  color: rgba(40, 31, 14);
+}
+
+i:hover {
+  animation-name: grow;
+  animation-duration: 3s;
+}
+
+@keyframes grow {
+  from {
+    color: #5dbf97;
+  }
+  to {
+    font-size: 1.5rem;
+    transform: rotate(360deg);
+  }
+}
+
 /** backgrounds **/
 .red {
   color: #fff;

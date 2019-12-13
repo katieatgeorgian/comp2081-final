@@ -3,7 +3,7 @@
 /* help from https://www.w3schools.com/howto/howto_css_parallax.asp */
 #background1 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffee.jpg");
+  background-image: url("../images/coffeeOpt.jpg");
   /* Background photo created by valeria_aksakova - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
@@ -17,7 +17,7 @@
 
 #background2 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/waffle.jpg");
+  background-image: url("../images/waffleOpt.jpg");
   /* Food photo created by valeria_aksakova - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
@@ -31,7 +31,7 @@
 
 #background3 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/avocadotoast3.jpg");
+  background-image: url("../images/avocadotoast3Opt.jpg");
   /* image from https://theperfectportion.com/wp-content/uploads/2016/01/PerfectPortion-AvocadoToast.jpg */
   /* Set a specific height */
   min-height: 500px;
@@ -45,7 +45,7 @@
 
 #background4 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/panini.jpg");
+  background-image: url("../images/paniniopt.jpg");
   /* Food photo created by Racool_studio - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
@@ -59,7 +59,7 @@
 
 #backgroundContact {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/tea7.jpg");
+  background-image: url("../images/tea7Opt.jpg");
   /* Flower photo created by jcomp - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
@@ -99,7 +99,7 @@
 
 #backgroundMenu {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/english-breakfast.jpg");
+  background-image: url("../images/english-breakfastOpt.jpg");
   /* Background photo created by lifeforstock - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
@@ -113,7 +113,7 @@
 
 #backgroundNews {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffee-beans-sugar.jpg");
+  background-image: url("../images/coffee-beans-sugarOpt.jpg");
   /* Coffee photo created by freepik - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
