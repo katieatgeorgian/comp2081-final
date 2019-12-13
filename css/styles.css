@@ -10,7 +10,7 @@ h1 {
 }
 
 #logo {
-  width: 250px;
+  max-width: 100%;
   height: auto;
   animation-name: glow;
   animation-duration: 45s;
@@ -107,6 +107,7 @@ h1 {
   background-color: #5dbf97;
   color: #fff;
 }
+
 footer {
   text-align: center;
   padding-top: 3%;
@@ -180,7 +181,7 @@ caption {
 .blog-post {
   margin-bottom: 4rem;
   /* background-color: #efede3; */
-  background-color: rgb(240, 252, 240);
+  background-color: rgb(233, 255, 249);
   padding: 2rem;
   border-radius: 10px;
 }
@@ -188,24 +189,4 @@ caption {
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
-}
-
-/* unvisited link */
-a:link {
-  color: rgba(40, 31, 14) !important;
-}
-
-/* visited link */
-a:visited {
-  color: #5dbf97 !important;
-}
-
-/* mouse over link */
-a:hover {
-  color: rgba(122, 152, 50) !important;
-}
-
-/* selected link */
-a:active {
-  color: rgba(160, 28, 28) !important;
 }

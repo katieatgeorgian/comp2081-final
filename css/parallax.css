@@ -3,9 +3,8 @@
 /* help from https://www.w3schools.com/howto/howto_css_parallax.asp */
 #background1 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffee3Edited.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
+  background-image: url("../images/coffee.jpg");
+  /* Background photo created by valeria_aksakova - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 
@@ -18,9 +17,8 @@
 
 #background2 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/frenchtoastEdited.png");
-  /*image borrowed from https://www.istockphoto.com/ca/photo/french-toast-with-berries-and-cream-gm187324823-27829498 */
-
+  background-image: url("../images/waffle.jpg");
+  /* Food photo created by valeria_aksakova - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 
@@ -33,9 +31,8 @@
 
 #background3 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/avocadotoastEdited.png");
-  /*image borrowed from https://www.istockphoto.com/ca/photo/healthy-food-budha-bowl-with-quinoa-avocado-cucumber-salad-tomatoe-olive-oil-clean-gm1180664198-330847832 */
-
+  background-image: url("../images/avocadotoast3.jpg");
+  /* image from https://theperfectportion.com/wp-content/uploads/2016/01/PerfectPortion-AvocadoToast.jpg */
   /* Set a specific height */
   min-height: 500px;
 
@@ -48,9 +45,8 @@
 
 #background4 {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/paniniEdited.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
+  background-image: url("../images/panini.jpg");
+  /* Food photo created by Racool_studio - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 
@@ -63,9 +59,8 @@
 
 #backgroundContact {
   background-color: rgb(251, 252, 227);
-  /* background-image: url("../images/coffeebeans3.png"); */
-  background-image: url("../images/tea3edited.png");
-
+  background-image: url("../images/tea7.jpg");
+  /* Flower photo created by jcomp - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 
@@ -79,8 +74,6 @@
 #backgroundContact2 {
   background-color: rgb(251, 252, 227);
   background-image: url("../images/maps2.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
   /* Set a specific height */
   min-height: 500px;
 
@@ -94,8 +87,6 @@
 #backgroundAbout {
   background-color: rgb(251, 252, 227);
   background-image: url("../images/store.jpg");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
   /* Set a specific height */
   min-height: 500px;
 
@@ -108,9 +99,8 @@
 
 #backgroundMenu {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/breakfastEdited.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
+  background-image: url("../images/english-breakfast.jpg");
+  /* Background photo created by lifeforstock - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 
@@ -123,9 +113,8 @@
 
 #backgroundNews {
   background-color: rgb(251, 252, 227);
-  background-image: url("../images/coffeebeans3Edited.png");
-  /*image borrowed from https://unsplash.com/photos/tZKwLRO904E */
-
+  background-image: url("../images/coffee-beans-sugar.jpg");
+  /* Coffee photo created by freepik - www.freepik.com */
   /* Set a specific height */
   min-height: 500px;
 

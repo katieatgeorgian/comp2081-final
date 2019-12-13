@@ -1,3 +1,9 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Kalam&display=swap");
+
 @font-face {
   font-family: "philosopherregular";
   src: url("../assets/Philosopher-Regular-webfont.eot");
@@ -12,10 +18,6 @@
   font-style: normal;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Goblin+One&display=swap");
-/* @import url("https://fonts.googleapis.com/css?family=Lato&display=swap"); */
-@import url("https://fonts.googleapis.com/css?family=Abel&display=swap");
-
 html {
   font-size: 16px;
   line-height: 1.4;
@@ -23,8 +25,7 @@ html {
 
 h1 {
   text-align: center;
-  font-family: "Goblin One";
-  font-style: italic;
+  font-family: Kalam;
   color: #fff;
 }
 
@@ -40,13 +41,13 @@ h2 span {
 
 h3 {
   /* color: rgb(209, 209, 211); */
-  color: black;
+  color: #fff;
   font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
 }
 
 .whiteFont {
-  color: #fff;
+  color: rgb(222, 224, 223);
 }
 
 .turquoiseFont {
@@ -60,34 +61,30 @@ h3 {
 p,
 address {
   font-size: 1.3rem;
-  /* font-family: Lato, Verdana, sans-serif; */
-  font-family: Abel, sans-serif;
-  letter-spacing: 0.025rem;
+  font-family: Lato, Verdana, sans-serif;
+  letter-spacing: 0.05rem;
   color: rgb(40, 31, 14);
 }
 
 td {
-  font-family: Abel, sans-serif;
+  font-family: Lato, Verdana, sans-serif;
   letter-spacing: 0.025rem;
   color: rgb(40, 31, 14);
 }
 
 a {
   font-family: Lato, Verdana, sans-serif;
-  color: rgb(40, 31, 14) !important;
 }
 
 nav a {
   font-family: philosopherregular, "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
 }
-a:hover {
-  color: rgb(122, 152, 50) !important;
+
+header nav a {
+  font-size: 1.4rem !important;
 }
 
-header a {
-  font-size: 1.3rem;
-}
 header nav {
   background-color: white;
 }
@@ -118,7 +115,7 @@ div.carousel-caption h2 {
 }
 
 .lunchCat {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 .blog-header-logo {
@@ -134,4 +131,29 @@ div.carousel-caption h2 {
 .blog-post-title {
   margin-bottom: 0.25rem;
   font-size: 2.5rem;
+}
+
+/* unvisited link */
+header nav a:link {
+  color: rgba(40, 31, 14) !important;
+}
+
+/* visited link */
+header nav a:visited {
+  color: #5dbf97 !important;
+}
+
+/* focused link */
+header nav a:focus {
+  color: rgba(122, 152, 50) !important;
+}
+
+/* mouse over link */
+header nav a:hover {
+  color: rgba(122, 152, 50) !important;
+}
+
+/* selected link */
+header nav a:active {
+  color: rgb(160, 28, 28) !important;
 }
