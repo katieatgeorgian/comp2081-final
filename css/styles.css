@@ -180,6 +180,19 @@ caption {
   flex: 0 0 auto;
 }
 
+#button {
+  padding: 1.3rem 1rem;
+  background-color: #fff;
+  color: rgb(40, 31, 14);
+  border: 1px solid rgb(40, 31, 14);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#button:hover {
+  background-color: rgb(233, 255, 249);
+}
+
 /* Pagination */
 .blog-pagination {
   margin-bottom: 4rem;
