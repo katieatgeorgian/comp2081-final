@@ -156,13 +156,7 @@ caption {
 }
 
 .card-header button {
-  color: #fff;
-  font-size: 1.2rem;
   padding: 0.8rem;
-}
-
-.card-header button:hover {
-  color: rgb(40, 31, 14);
 }
 
 /*** BLOG ***/

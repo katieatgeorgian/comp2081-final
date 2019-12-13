@@ -58,6 +58,10 @@ h3 {
   color: rgba(160, 28, 28);
 }
 
+.brownFont {
+  color: rgb(40, 31, 14);
+}
+
 p,
 address {
   font-size: 1.3rem;
@@ -70,6 +74,7 @@ td {
   font-family: Lato, Verdana, sans-serif;
   letter-spacing: 0.025rem;
   color: rgb(40, 31, 14);
+  font-size: 1.2rem;
 }
 
 a {
@@ -102,6 +107,7 @@ footer address {
 
 .aboutCards h6 {
   color: rgba(40, 31, 14);
+  font-size: 1.3rem;
 }
 
 .aboutCards p {
@@ -116,6 +122,15 @@ div.carousel-caption h2 {
 
 .lunchCat {
   font-size: 1.5rem;
+}
+
+.card-header button {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.card-header button:hover {
+  color: rgb(40, 31, 14);
 }
 
 .blog-header-logo {
@@ -133,27 +148,53 @@ div.carousel-caption h2 {
   font-size: 2.5rem;
 }
 
+.card-text {
+  font-size: 1.3rem !important;
+}
+
+form {
+  font-size: 1.2rem;
+}
+
 /* unvisited link */
-header nav a:link {
+a:link {
   color: rgba(40, 31, 14) !important;
 }
 
 /* visited link */
-header nav a:visited {
+a:visited {
   color: #5dbf97 !important;
 }
 
 /* focused link */
-header nav a:focus {
+a:focus {
   color: rgba(122, 152, 50) !important;
 }
 
 /* mouse over link */
-header nav a:hover {
+a:hover {
   color: rgba(122, 152, 50) !important;
 }
 
 /* selected link */
-header nav a:active {
+a:active {
   color: rgb(160, 28, 28) !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .card-text {
+    font-size: 1rem !important;
+  }
+  .aboutCards h6 {
+    font-size: 1.1rem;
+  }
+  td {
+    font-size: 1.1rem;
+  }
+  .card-header button {
+    font-size: 1.2rem;
+  }
+  form {
+    font-size: 1rem;
+  }
 }
